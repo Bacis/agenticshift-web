@@ -69,7 +69,7 @@ export default function CustomerSuccessStory({
       transition={{ duration: 0.6 }}
       className={`${featured ? 'lg:col-span-2' : ''}`}
     >
-      <Card className={`h-full hover:shadow-xl transition-all duration-300 ${featured ? 'border-2 border-black' : 'hover:border-gray-300'}`}>
+      <Card className={`h-full hover:shadow-xl transition-all duration-300 ${featured ? 'border border-gray-200' : 'border border-gray-200 hover:border-gray-300'}`}>
         <CardContent className="p-0">
           {/* Header */}
           <div className="p-6 border-b border-gray-100">

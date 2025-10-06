@@ -60,10 +60,10 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Link 
-              href="/console" 
+              href="/pricing" 
               className="bg-purple-600 text-white px-3 py-1.5 rounded-md text-sm font-medium hover:bg-purple-700 transition-all duration-200"
             >
-              [C] CONSOLE
+              [P] PRICING
             </Link>
             <div className="w-8 h-8 border border-gray-200 rounded-full flex items-center justify-center bg-white text-sm cursor-pointer hover:bg-black hover:text-white hover:border-black transition-all duration-200">
               🌐

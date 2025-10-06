@@ -65,7 +65,7 @@ export default function InteractiveSuccessStory({
       onMouseLeave={() => setIsHovered(false)}
     >
       <Card className={`h-full transition-all duration-300 ${
-        featured ? 'border-2 border-black' : 'hover:border-gray-300'
+        featured ? 'border border-gray-200' : 'border border-gray-200 hover:border-gray-300'
       } ${isHovered ? 'shadow-2xl' : 'hover:shadow-xl'}`}>
         <CardContent className="p-0">
           {/* Header with animated elements */}

@@ -131,7 +131,7 @@ export default function WorkflowAutomationPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
               >
-                <Card className="h-full hover:shadow-lg transition-all duration-300 border-2 hover:border-gray-300">
+                <Card className="h-full hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-gray-300">
                   <CardHeader className="pb-4">
                     <div className="flex items-center justify-between mb-3">
                       <div className="text-3xl">{capability.icon}</div>

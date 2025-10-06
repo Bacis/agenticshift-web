@@ -124,8 +124,8 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Welcome to<br />
-            <span className="font-mono text-5xl text-gray-800">Agenticshift.io</span>
+            Transform Your Business<br />
+            <span className="font-mono text-5xl text-gray-800">with AI Solutions</span>
           </motion.h1>
           <motion.p 
             className="text-xl text-gray-600 max-w-4xl leading-relaxed mb-8"
@@ -133,8 +133,9 @@ export default function Home() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Expert Voice Agent development and workflow automation services. Transform your business operations 
-            with cutting-edge AI solutions using industry-leading platforms.
+            Agentic Shift delivers <strong>independent software solutions</strong> that optimize your business operations. 
+            From intelligent voice agents to automated workflows, we build custom AI solutions that scale your business, 
+            reduce costs, and enhance customer experiences.
           </motion.p>
           <motion.div 
             className="flex flex-col sm:flex-row gap-4"
@@ -148,7 +149,7 @@ export default function Home() {
               asChild
             >
               <a href="/voice-agents">
-                Voice Agents ↗
+                Get Your Voice Agent ↗
               </a>
             </Button>
             <Button 
@@ -158,10 +159,80 @@ export default function Home() {
               asChild
             >
               <a href="/workflow-automation">
-                Workflow Automation ↗
+                Automate Your Workflows ↗
               </a>
             </Button>
           </motion.div>
+        </div>
+      </motion.section>
+
+      {/* Value Proposition Section */}
+      <motion.section 
+        className="py-16 bg-gray-50 relative z-10"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.8 }}
+      >
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div 
+            className="text-center mb-12"
+            initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h2 className="text-3xl font-bold text-black mb-6">
+              Why Choose Agentic Shift?
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              We deliver measurable results that directly impact your bottom line
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.div
+              className="text-center"
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              <div className="text-4xl mb-4">💰</div>
+              <h3 className="text-xl font-semibold text-black mb-3">Reduce Costs by 40%</h3>
+              <p className="text-gray-600">
+                Automate repetitive tasks and customer interactions to cut operational expenses while maintaining quality service.
+              </p>
+            </motion.div>
+
+            <motion.div
+              className="text-center"
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold text-black mb-3">Scale 24/7 Operations</h3>
+              <p className="text-gray-600">
+                Deploy AI agents that work around the clock, handling customer inquiries and business processes without breaks.
+              </p>
+            </motion.div>
+
+            <motion.div
+              className="text-center"
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold text-black mb-3">Custom Solutions</h3>
+              <p className="text-gray-600">
+                Every business is unique. We build tailored AI solutions that integrate seamlessly with your existing systems.
+              </p>
+            </motion.div>
+          </div>
         </div>
       </motion.section>
 
@@ -536,7 +607,7 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Ready to Get Started?
+            Ready to Optimize Your Business?
           </motion.h2>
           <motion.p 
             className="text-lg text-gray-600 mb-8 leading-relaxed"
@@ -545,7 +616,8 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Explore our Voice Agent solutions and workflow automation services to find the perfect fit for your business needs.
+            Join businesses already saving time and money with our AI-powered solutions. 
+            Get a custom quote for your specific needs and start transforming your operations today.
           </motion.p>
           <motion.div 
             className="flex flex-col sm:flex-row gap-4 justify-center mb-8"
@@ -560,7 +632,7 @@ export default function Home() {
               asChild
             >
               <a href="/voice-agents">
-                📞 Explore Voice Agents
+                📞 Get Your Voice Agent
               </a>
             </Button>
             <Button 
@@ -570,7 +642,7 @@ export default function Home() {
               asChild
             >
               <a href="/workflow-automation">
-                ⚡ Explore Automation
+                ⚡ Automate Your Business
               </a>
             </Button>
           </motion.div>
